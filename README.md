@@ -41,3 +41,40 @@ The response body contained **JSON data** showing details like my IP address, he
 - **Intercept OFF:**  
   When Intercept is OFF, the request goes directly to the server without stopping.  
   Burp just lets the traffic flow normally.
+
+  ---
+
+##  Day 3 – Browser & Postman Basics
+
+###  Browser Basics
+
+####  Cookies
+Cookies are small pieces of data stored by the browser on behalf of a website.  
+They help websites remember user sessions, preferences, or login states.  
+Every time you revisit the same site, your cookies are automatically sent with the request.  
+For example, when you log in to a site, your **session ID** is often stored as a cookie.
+
+#### localStorage
+`localStorage` stores data permanently in the browser, even after closing it or restarting the system.  
+It’s mainly used to save non-sensitive information like theme preference or username.
+
+#### session storage
+sessionStorage is similar to localStorage, but the data lasts only until the tab is closed.
+It is useful for temporary data that’s needed only during a single session.
+
+#### postman basics
+Postman is a tool used to test and explore APIs.
+It allows you to send requests (like GET, POST, PUT, DELETE) and analyze responses easily.
+Each request includes:
+-URL: The API endpoint
+-Headers: Information like Content-Type
+-Body: Data sent in POST/PUT requests
+##### HTTP Status Codes (Summary)
+
+- **1xx →** Information  
+- **2xx →** Success  
+- **3xx →** Redirection  
+- **4xx →** Client Error  
+- **5xx →** Server Error
+
+**Postman helps understand how client–server communication works without needing a browser**.
