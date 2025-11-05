@@ -78,3 +78,13 @@ Each request includes:
 - **5xx →** Server Error
 
 **Postman helps understand how client–server communication works without needing a browser**.
+---
+## Day 4 – HTML Fundamentals
+
+- Completed learning all essential HTML concepts including elements, attributes, forms, and input types.  
+- Practiced creating static web pages using **VS Code**, focusing on structure and readability.  
+- Understood the role of **HTML in web application security**, such as input fields being potential points for injection or XSS attacks.  
+- Learned about **semantic tags** (header, section, article, footer) for better page organization.  
+- Gained clarity on how front-end structure connects with backend requests — an important foundation for AppSec testing.  
+- Confident in reading and analyzing HTML source code to identify web components and request flow.
+
